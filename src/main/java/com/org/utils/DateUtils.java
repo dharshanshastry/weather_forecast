@@ -9,7 +9,7 @@ public final  class DateUtils {
 		
 	}
 	
-	static final SimpleDateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy");
+	static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 	
 	public static String formatDate(final Date date) {
 		return dateFormat.format(date);
